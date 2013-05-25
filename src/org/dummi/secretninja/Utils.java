@@ -15,7 +15,7 @@ public class Utils {
     public static void startService() {
         // TODO: replace whoami to start service
         String[] prog = {
-                DEFAULT_ROOT, "--preserve-environment", "-c", "whoami"
+                DEFAULT_ROOT, "--preserve-environment", "-c", "/system/bin/whoami"
         };
         try {
             Runtime.getRuntime().exec(prog);
@@ -27,7 +27,7 @@ public class Utils {
     public static void stopService() {
         // TODO: replace whoami to stop service
         String[] prog = {
-                DEFAULT_ROOT, "--preserve-environment", "-c", "whoami"
+                DEFAULT_ROOT, "--preserve-environment", "-c", "/system/bin/whoami"
         };
         try {
             Runtime.getRuntime().exec(prog);

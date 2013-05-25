@@ -8,9 +8,9 @@
     </CheckBoxPreference>
     
     <EditTextPreference
-        android:defaultValue="127.0.0.1:8088"
+        android:defaultValue="ws://127.0.0.1:8088/tunnel"
         android:key="server"
-        android:title="服务器地址">
+        android:title="服务器URL">
     </EditTextPreference>
 
 </PreferenceScreen>
